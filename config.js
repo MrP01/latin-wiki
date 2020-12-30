@@ -1,33 +1,25 @@
 const config = {
   gatsby: {
-    pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    pathPrefix: '/learn/',
+    siteUrl: 'https://www.latin-is-simple.com',
     gaTrackingId: null,
-    trailingSlash: false,
+    trailingSlash: true,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
-    title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    logo: 'https://www.latin-is-simple.com/static/img/icons/apple-icon-120x120.png',
+    logoLink: 'https://www.latin-is-simple.com/',
+    title: "<a href='https://www.latin-is-simple.com/learn/'>learn</a>",
+    githubUrl: 'https://github.com/MrP01/latin-wiki',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="https://facebook.com/LatinIsSimple" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
 		  </li>`,
-    links: [{ text: '', link: '' }],
+    links: [{text: 'Dictionary', link: 'https://www.latin-is-simple.com/vocabulary/'}],
     search: {
       enabled: false,
       indexName: '',
@@ -38,43 +30,28 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/latin-quick-start/', // add trailing slash if enabled above
+      '/wordtypes/',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      // '/wordtypes/', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{text: 'Latin Online Dictionary', link: 'https://www.latin-is-simple.com'}],
     frontline: false,
     ignoreIndex: true,
-    title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+    title: "<a href='https://www.latin-is-simple.com/'>Latin is Simple </a><div class='greenCircle'></div>" +
+      "<a href='https://www.latin-is-simple.com/learn/'>Wiki</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Latin Wiki - a Latin is Simple Learning Resource',
+    description: 'The Latin is Simple Wiki is a learning resource and reference for beginners',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    docsLocation: 'https://github.com/MrP01/latin-wiki/tree/master/content',
+    favicon: 'https://www.latin-is-simple.com/favicon.ico',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
-    manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
-      start_url: '/',
-      background_color: '#6b37bf',
-      theme_color: '#6b37bf',
-      display: 'standalone',
-      crossOrigin: 'use-credentials',
-      icons: [
-        {
-          src: 'src/pwa-512.png',
-          sizes: `512x512`,
-          type: `image/png`,
-        },
-      ],
-    },
+    manifest: {},
   },
 };
 
