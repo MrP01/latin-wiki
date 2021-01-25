@@ -1,6 +1,6 @@
 const config = {
   gatsby: {
-    pathPrefix: '/learn/',
+    pathPrefix: '/en/learn/',
     siteUrl: 'https://www.latin-is-simple.com',
     gaTrackingId: null,
     trailingSlash: true,
@@ -15,11 +15,15 @@ const config = {
     social: `<li>
 		    <a href="https://facebook.com/LatinIsSimple" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
+		        <img src='//www.latin-is-simple.com/static/img/facebook-icon.png' alt={'Facebook'}/>
 		      </div>
 		    </a>
 		  </li>`,
-    links: [{text: 'Dictionary', link: 'https://www.latin-is-simple.com/vocabulary/'}],
+    links: [
+        {text: 'Dictionary', link: 'https://www.latin-is-simple.com/vocabulary/'},
+        {text: 'Sentence Analysis', link: 'https://www.latin-is-simple.com/analysis/'},
+        {text: 'Library', link: 'https://www.latin-is-simple.com/library/'},
+    ],
     search: {
       enabled: false,
       indexName: '',
