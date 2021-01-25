@@ -12,7 +12,7 @@ Nouns are either **Proper** or **Common**. Proper nouns are permanent names of p
 places; as, *Caesar*, *Rōma*. Other nouns are Common: as, *penna*, *virtūs*.
 
 There are three **Genders** in the Latin language - *Masculine*, *Feminine*, and *Neuter*.
-Gender in Latin is either **natural** or **grammatical**. For a natural person (usually denoted by a *proper* noun), the natural sex is usually the same as the grammatical gender / sex.
+Gender in Latin is either **natural** or **grammatical**. For a natural person (by the way, usually denoted by a *proper* noun), the natural sex is usually the same as the grammatical gender / sex.
 
 There are six **Cases** in Latin -
 ​	**Nominative**, the Case of the Subject;
@@ -22,8 +22,8 @@ There are six **Cases** in Latin -
 ​	**Vocative**, Case of Address;
 ​	**Ablative**, Objective with specific prepositions.
 
+Inlecting a noun into its cases and two numbers is referred to as *declining a noun*. As with all regular Latin vocabulary, this is done by taking the word **stem** and adding a case-specific **ending**. Have a look at the example below!
+
 The full declination tables of some commonly used nouns:
 
-TODO1
-
-TODO2
+... to do :)
