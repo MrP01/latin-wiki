@@ -14,9 +14,7 @@ const config = {
     tweetText: '',
     social: `<li>
 		    <a href="https://facebook.com/LatinIsSimple" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='//www.latin-is-simple.com/static/img/facebook-icon.png' alt={'Facebook'}/>
-		      </div>
+		      <div><img src='//www.latin-is-simple.com/static/img/facebook-icon.png' alt={'Facebook'}/></div>
 		    </a>
 		  </li>`,
     links: [
