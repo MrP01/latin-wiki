@@ -1,5 +1,5 @@
 ---
-title: "Pronoun"
+title: "Pronouns"
 metaTitle: "Pronouns in the Latin Language with their Declination - Explained!"
 metaDescription: "A general purpose overview of Latin pronouns, full declension and usage details in this cheat sheet for easy learning!"
 ---
