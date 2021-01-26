@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
+        node-version: [14.x, 15.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -23,6 +23,3 @@ jobs:
     - uses: borales/actions-yarn@v2.0.0
       with:
         cmd: build # will run `yarn build` command
-    - uses: borales/actions-yarn@v2.0.0
-      with:
-        cmd: test # will run `yarn test` command
