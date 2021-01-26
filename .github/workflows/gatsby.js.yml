@@ -34,6 +34,7 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
         SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
-        SSH_KEY_PATH: ${{ github.workspace }}/../private.key
     - name: Deploy
-      run: scp -i $SSH_KEY_PATH public/ MrP01@ssh.pythonanywhere.com:/home/MrP01/wiki/
+      run: ls && scp -i $SSH_KEY_PATH -r public/ MrP01@ssh.pythonanywhere.com:/home/MrP01/wiki/
+      env:
+        SSH_KEY_PATH: ${{ github.workspace }}/../private.key
