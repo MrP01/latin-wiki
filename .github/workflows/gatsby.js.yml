@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 15.x]
+        node-version: [15.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -24,3 +24,16 @@ jobs:
       run: yarn
     - name: Gatsby build
       run: yarn build
+    - name: Create SSH key
+      run: |
+        mkdir -p ~/.ssh/
+        echo "$SSH_PRIVATE_KEY" > ../private.key
+        sudo chmod 600 ../private.key
+        echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+      shell: bash
+      env:
+        SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
+        SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
+        SSH_KEY_PATH: ${{ github.workspace }}/../private.key
+    - name: Deploy
+      run: scp -i $SSH_KEY_PATH public/ MrP01@ssh.pythonanywhere.com:/home/MrP01/wiki/
