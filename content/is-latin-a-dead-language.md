@@ -10,6 +10,8 @@ Asking such is natural for everybody who learns Latin, out of obligation or out 
 
 This is especially important when one starts to question the relevance of Latin and whether they really need to learn it or not… **it’s a dead language, right?**
 
+![Worldwide Languages are frequently derived from Latin](images/languages.jpg)
+
 ## Definition
 
 According to linguist Ghil'ad Zuckermann, language death (or also: “*linguicide*”) occurs when the last native speaker dies, i.e. it is no longer the native language of any community. This process is usually very slow and doesn't happen from one day to another. In contrast, language death is not the same as language extinction. When a language is extinct, there aren't any speakers left at all. And that’s clearly a difference. It’s even “more dead”.
