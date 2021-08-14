@@ -1,20 +1,20 @@
 const config = {
   gatsby: {
-    pathPrefix: '/en/learn/',
-    siteUrl: 'https://www.latin-is-simple.com',
+    pathPrefix: '/',
+    siteUrl: 'https://learn.latin-is-simple.com',
     gaTrackingId: null,
     trailingSlash: true,
   },
   header: {
-    logo: 'https://www.latin-is-simple.com/static/img/icons/apple-icon-120x120.png',
+    logo: 'https://static.latin-is-simple.com/img/icons/apple-icon-120x120.png',
     logoLink: 'https://www.latin-is-simple.com/',
-    title: "<a href='https://www.latin-is-simple.com/learn/'>learn</a>",
+    title: "<a href='https://learn.latin-is-simple.com/'>learn</a>",
     githubUrl: 'https://github.com/MrP01/latin-wiki',
     helpUrl: '',
     tweetText: '',
     social: `<li>
 		    <a href="https://facebook.com/LatinIsSimple" target="_blank" rel="noopener">
-		      <div><img src='//www.latin-is-simple.com/static/img/facebook-icon.png' alt={'Facebook'}/></div>
+		      <div><img src='//static.latin-is-simple.com/img/facebook-icon.png' alt={'Facebook'}/></div>
 		    </a>
 		  </li>`,
     links: [
@@ -42,7 +42,7 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title: "<a href='https://www.latin-is-simple.com/'>Latin is Simple </a><div class='greenCircle'></div>" +
-      "<a href='https://www.latin-is-simple.com/learn/'>Wiki</a>",
+      "<a href='https://learn.latin-is-simple.com/'>Wiki</a>",
   },
   siteMetadata: {
     title: 'Latin Wiki - a Latin is Simple Learning Resource',
