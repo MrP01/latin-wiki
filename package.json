@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-gitbook-boilerplate",
+  "name": "latin-is-simple-wiki",
   "private": true,
   "description": "Documentation, built with mdx",
-  "author": "Praveen <praveen@hasura.io> (@praveenweb)",
-  "version": "0.0.1",
+  "author": "Erhalt und Digitalisierung indoeuropäischer Sprachen",
+  "version": "0.0.2",
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.7.4",
     "@emotion/core": "^10.0.22",
