@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 export const baseStyles = css`
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
@@ -286,7 +286,7 @@ export const baseStyles = css`
   }
 
   .navBarBrand img {
-    width: 40px;
+    width: 120px;
     margin-right: 6px;
     display: inline-block;
   }
