@@ -66,6 +66,9 @@ exports.onCreateBabelConfig = ({ actions }) => {
   actions.setBabelPlugin({
     name: '@babel/plugin-proposal-export-default-from',
   });
+  actions.setBabelPlugin({
+    name: '@babel/plugin-proposal-class-properties',
+  });
 };
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
