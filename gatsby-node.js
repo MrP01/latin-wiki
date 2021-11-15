@@ -73,6 +73,10 @@ exports.onCreateBabelConfig = ({ actions }) => {
     name: '@babel/plugin-proposal-private-property-in-object',
     options: { loose: false },
   });
+  actions.setBabelPlugin({
+    name: "@babel/plugin-proposal-private-methods",
+    options: { "loose": false }
+  })
 };
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
