@@ -29,7 +29,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+      ).then((result) => {
         if (result.errors) {
           console.log(result.errors); // eslint-disable-line no-console
           reject(result.errors);
@@ -68,6 +68,10 @@ exports.onCreateBabelConfig = ({ actions }) => {
   });
   actions.setBabelPlugin({
     name: '@babel/plugin-proposal-class-properties',
+  });
+  actions.setBabelPlugin({
+    name: '@babel/plugin-proposal-private-property-in-object',
+    options: { loose: false },
   });
 };
 
