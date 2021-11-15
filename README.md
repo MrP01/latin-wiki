@@ -9,10 +9,8 @@ Anyone can contribute by submitting a Pull Request here!
 Get started by running the following commands:
 
 ```
-$ git clone git@github.com:hasura/gatsby-gitbook-starter.git
-$ cd gatsby-gitbook-starter
-$ npm install
-$ npm start
+$ git clone git@github.com:MrP01/latin-wiki.git
+$ yarn start
 ```
 
 Visit `http://localhost:8000/` to view the app.
@@ -24,6 +22,7 @@ Visit `http://localhost:8000/` to view the app.
 - Syntax Highlighting using Prism [`Bonus`: Code diff highlighting]
 - Search Integration with Algolia
 - Progressive Web App, Works Offline
+- Google Analytics Integration
 - Automatically generated sidebar navigation, table of contents, previous/next
 - Dark Mode toggle
 - Edit on Github
@@ -36,7 +35,7 @@ Write markdown files in `content` folder.
 
 Open `config.js` for templating variables. Broadly configuration is available for `gatsby`, `header`, `sidebar` and `siteMetadata`.
 
-- `gatsby` config for global configuration like 
+- `gatsby` config for global configuration like
     - `pathPrefix` - Gatsby Path Prefix
     - `siteUrl` - Gatsby Site URL
     - `gaTrackingId` - Google Analytics Tracking ID
