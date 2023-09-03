@@ -11,7 +11,7 @@ conjugated but declined. Thus, an adjective can either be singular or plural and
 This is neccessary, because an adjective is always in bound with a noun. For this, an adjective has to be 
 in the same case and sex as the noun.
 
-Adjectives usually refer to properties of [nouns](./noun).
+Adjectives usually refer to properties of [nouns](../noun).
 
 # Declinations
 
